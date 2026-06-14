@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.indigo.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>InOrbit</title>
+</head>
+<body>
+    <main>
+        <article class="login-card">
+            <header>
+                <div class="brand">
+                    <picture>
+                        <source 
+                            srcset="img/white-logo.png"
+                            media="(prefers-color-scheme: dark)">
+
+                        <source 
+                            srcset="img/black-logo.png"
+                            media="(prefers-color-scheme: light)">
+
+                        <img src="img/black-logo.png" alt="Logo InOrbit">
+                    </picture>
+                    <h1>InOrbit</h1>
+                    <p>Orbitando seus interesses.</p>
+                </div>
+            </header>
+
+            <form action="feed.html">
+                <fieldset id="teste1">
+                    <legend>Cadastre-se no InOrbit</legend>
+                    <hr>
+                    <label for="name">Nome completo</label>
+                    <input 
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Nome completo"
+                        required>
+                    
+                    <label for="username">Nome de usuário</label>
+                    <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        placeholder="Nome de usuário"
+                        required>
+            
+                    <label for="email">E-Mail</label>
+                    <input 
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="E-Mail"
+                        required>
+
+                    <label for="password">Senha</label>
+                    <input 
+                        type="password"
+                        id="password" 
+                        name="password" 
+                        placeholder="Senha" 
+                        required>
+                    
+                    <label for="password">Confirmar senha</label>
+                    <input 
+                        type="password"
+                        id="confirm_password" 
+                        name="confirm_password" 
+                        placeholder="Confirmar senha" 
+                        required>
+                    
+                    <label for="gender">Gênero</label>
+                    <select name="gender" id="gender" required>
+                        <option value="" selected disabled>Selecione</option>
+                        <option value="male">Homem</option>
+                        <option value="female">Mulher</option>
+                        <option value="non-binary">Não-binário</option>
+                        <option value="other">Outro</option>
+                        <option value="not-inform">Prefiro não informar</option>
+                    </select>
+                    
+                    <label for="date">Data de nascimento</label>
+                    <input
+                        type="date"
+                        name="birthday"
+                        id="birthday"
+                        required>
+                    
+                    <label>
+                        <input type="checkbox" required>
+                        Li e concordo com os Termos de Uso e Política de Privacidade.
+                    </label>
+
+                    <a href="feed.html"><button type="submit">Cadastrar</button></a>
+
+                    <div class="login-links">
+                        <small>
+                            Já possui uma conta?
+                            <a href="index.html">Entrar</a>
+                        </small>
+                    </div>
+                </fieldset>
+            </form>
+        </article>
+    </main>
+</body>
+</html>

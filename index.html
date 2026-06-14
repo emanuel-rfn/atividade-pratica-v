@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.indigo.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>InOrbit</title>
+</head>
+<body>
+    <main>
+        <article class="login-card">
+            <header>
+                <div class="brand">
+                    <picture>
+                        <source 
+                            srcset="img/white-logo.png"
+                            media="(prefers-color-scheme: dark)">
+
+                        <source 
+                            srcset="img/black-logo.png"
+                            media="(prefers-color-scheme: light)">
+
+                        <img src="img/black-logo.png" alt="Logo InOrbit">
+
+                    </picture>
+
+                    <h1>InOrbit</h1>
+                    <p>Orbitando seus interesses.</p>
+
+                </div>
+            </header>
+
+            <form action="feed.html">
+                <fieldset>
+                    <legend>Entrar no InOrbit</legend>
+                    <hr>
+                    <input 
+                        type="email"
+                        id="email" 
+                        name="email" 
+                        placeholder="E-mail"
+                        required>
+
+                    <input 
+                        type="password"
+                        id="password" 
+                        name="password" 
+                        placeholder="Senha" 
+                        required>
+
+                    <a href="feed.html"><button type="submit">Entrar em órbita</button></a>
+
+                    <div class="login-links">
+                        <small>
+                            <a href="">Esqueci minha senha?</a>
+                        </small>
+                        <small>
+                            Primeira vez em órbita?
+                            <a href="cadastro.html">Cadastre-se</a>
+                        </small>
+                    </div>
+                </fieldset>
+            </form>
+        </article>
+    </main>
+</body>
+</html>
