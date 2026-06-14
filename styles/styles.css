@@ -1,0 +1,110 @@
+.login-links p,
+.login-links small {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login-card {
+    max-width: 600px;
+    margin: auto;
+}
+
+.login-card form{
+    max-width: 500px;
+    margin: auto;
+}
+.brand{
+    text-align: center;
+    
+}
+
+.brand img{
+    height: 64px;
+    margin: 5px;
+}
+
+.login-card legend{
+    margin: 0px;
+}
+
+.icon-home {
+    width: 2em;
+    height: 2em;
+    margin-left: 1rem;
+}
+
+.icon-profile{
+    width: 2em;
+    height: 2em;
+}
+
+.icon-logout{
+    width: 2em;
+    height: 2em;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.header-nav a{
+    display: flex;
+    align-items: center;
+    color: var(--pico-primary);
+}
+
+.header img{
+    height: 2em;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo span {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.search-bar {
+    flex: 1;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+header{
+    padding-top: 0px;
+}
+
+.user-info img{
+    height: 1rem;
+}
+#newpost{
+    margin-top: 10px;
+}
+
+.post1 svg{
+    height: 1rem;
+}
+
+.post-icons{
+    display: flex;
+    gap: 30px;
+}
+
+.post1 p{
+    margin-top: 1rem;
+}
